@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+</head>
+<body>
+   <script>
+   const productName1 = "Samsung XX II"
+   const productPrice1 = 1000
+   const productName2 = "Sony II"
+   const productPrice2 = 900
+   const productName3 = "LG 2012"
+   const productPrice3 = 2000
+   let q1 = +prompt ("Catalog" + "\n" + 
+   "---------" + "\n" 
+   + productName1 + "\n" 
+   + productPrice1 + "\n"
+   + "---------")
+
+   let q2 = +prompt ("Catalog" + "\n" + 
+   "---------" + "\n" 
+   + productName2 + "\n" 
+   + productPrice2 + "\n"
+   + "---------") 
+   let q3 = +prompt ("Catalog" + "\n" + 
+   "---------" + "\n" 
+   + productName3 + "\n" 
+   + productPrice3 + "\n"
+   + "---------")
+
+  let total1 = productPrice1 * q1
+  let total2 = productPrice2 * q2
+  let total3 = productPrice3 * q3
+  let grandTotal = total1 + total2 + total3
+  alert ("Your order" + "\n" +"---------" + "\n" +
+  productName1 + "    " + "x" + "    " + q1 +  "    " + "="  + "    "  + total1 
+  + "\n" +"---------" + "\n" +
+  productName2 + "    " + "x" + "    " + q2 +  "    " + "="  + "    "  + total2
+  + "\n" +"---------" + "\n" +
+  productName3 + "    " + "x" + "    " + q3 +  "    " + "="  + "    "  + total3
+  + "\n" +"---------" + "\n" + "Total: "  + grandTotal
+   )
+   </script> 
+</body>
+</html>
